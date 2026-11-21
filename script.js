@@ -96,7 +96,10 @@
       </article>`;
     })
     .join("");
-  $("[data-tools]").innerHTML = P.tools.map((t) => `<li><b>${esc(t.replace(/[^A-Za-z]/g, "").slice(0, 2))}</b>${esc(t)}</li>`).join("");
+  const logos = typeof TOOL_LOGOS === "object" ? TOOL_LOGOS : {};
+  $("[data-tools]").innerHTML = P.tools
+    .map((t) => `<li data-build><span class="logo-tile">${logos[t] || `<b>${esc(t.replace(/[^A-Za-z]/g, "").slice(0, 2))}</b>`}</span>${esc(t)}</li>`)
+    .join("");
 
   // Filter + search
   let filter = "all";

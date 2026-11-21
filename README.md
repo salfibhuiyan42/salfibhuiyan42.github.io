@@ -10,6 +10,7 @@ After editing `content.js`, `style.css` or `script.js`, bump the `?v=` number on
 
 - `index.html` – page structure
 - `style.css` – design, layout and the assembly effect
+- `logos.js` – tool logos (SVG) for the "Tools I work with" list, keyed by tool name
 - `script.js` – renders content, project filters, accordion, assembly animation
 - `portrait-*.webp` – hero photo (background removed). When replacing it, use a new filename so browsers don't keep the old one
 - `Salfi_Bhuiyan_CV.pdf` – the CV behind the Download CV buttons
