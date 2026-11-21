@@ -7,103 +7,168 @@
   <meta name="description" content="Salfi Bhuiyan, BBA (MIS) student at North South University. Data analysis, reporting, SQL, Python and Power BI. Open to Management Trainee and analyst roles." />
   <meta property="og:title" content="Salfi Bhuiyan | MIS &amp; Data Analyst Portfolio" />
   <meta property="og:description" content="Data analysis, reporting, SQL, Python and Power BI. Open to Management Trainee and analyst roles." />
-  <meta name="theme-color" content="#0b0d17" />
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%236d5dfc'/><text x='50%' y='54%' text-anchor='middle' dominant-baseline='middle' font-family='Arial' font-weight='700' font-size='26' fill='white'>SB</text></svg>" />
+  <meta property="og:image" content="https://salfibhuiyan42.github.io/portrait.png" />
+  <meta name="theme-color" content="#0a0a0b" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='12' fill='%230a0a0b'/><path d='M14 22 32 50 50 22 41 22 32 37 23 22Z' fill='%23ff2d2d'/></svg>" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css?v=202611211752" />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Caveat:wght@600&family=Inter:ital,wght@0,400;0,500;0,600;0,700;1,600;1,800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css?v=202611211808" />
+  <script>
+    if (!matchMedia("(prefers-reduced-motion: reduce)").matches) document.documentElement.classList.add("anim");
+  </script>
 </head>
 <body>
-  <div class="progress" aria-hidden="true"></div>
-  <div class="cursor-glow" aria-hidden="true"></div>
-
   <header class="nav">
-    <a href="#home" class="logo" data-initials></a>
-    <nav>
-      <button class="menu-btn" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+    <a href="#home" class="logo" aria-label="Back to top"><span class="mark" aria-hidden="true"></span><span data-logo></span><i>.</i></a>
+    <nav aria-label="Main">
       <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
-        <li><a href="#journey">Education</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#journey">Journey</a></li>
         <li><a href="#certs">Certifications</a></li>
-        <li><a href="#contact" class="nav-cta">Contact</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
+    <a href="#contact" class="nav-talk">Let's talk <span aria-hidden="true">↗</span></a>
+    <button class="menu-btn" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
   </header>
 
   <main>
-    <section id="home" class="hero">
-      <canvas id="particles" aria-hidden="true"></canvas>
-      <div class="blob b1" aria-hidden="true"></div>
-      <div class="blob b2" aria-hidden="true"></div>
-      <div class="hero-inner">
-        <p class="badge hero-in" data-available><span class="dot"></span>Open to work</p>
-        <h1 class="hero-in">Hi, I'm <span class="grad" data-name></span></h1>
-        <h2 class="hero-in typed-line"><span class="typed"></span><span class="caret">|</span></h2>
-        <p class="hero-in lead" data-tagline></p>
-        <div class="hero-in hero-actions">
-          <a href="#projects" class="btn primary magnetic">View my work</a>
-          <a href="#contact" class="btn ghost magnetic">Get in touch</a>
-          <a href="" class="btn ghost magnetic" data-resume download><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>Download CV</a>
+    <!-- HERO -->
+    <section id="home" class="hero" data-section="Hero">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <p class="hero-label" data-build></p>
+      <p class="hero-chip" data-build><span class="pulse"></span>Available for new roles</p>
+      <div class="hero-stage">
+        <div class="giant" data-build aria-hidden="true">PORTFOLIO</div>
+        <img class="portrait" data-build alt="Portrait of Salfi Bhuiyan" width="624" height="784" />
+      </div>
+      <div class="hero-intro">
+        <p class="greet" data-build></p>
+        <h1 class="hero-name" data-build></h1>
+        <p class="hero-role" data-build></p>
+        <p class="hero-text" data-build></p>
+        <div class="hero-cta" data-build>
+          <a href="#projects" class="btn btn-red">See projects <span aria-hidden="true">→</span></a>
+          <a href="" class="btn btn-line" data-resume download>Download CV <span aria-hidden="true">↓</span></a>
         </div>
       </div>
-      <a href="#about" class="scroll-hint" aria-label="Scroll down"><span></span></a>
+      <ul class="hero-stats" data-stats></ul>
+      <p class="hero-foot" data-build><span class="dot-red"></span><span data-location></span></p>
     </section>
 
-    <section id="about" class="section">
-      <p class="eyebrow reveal">01 · About</p>
-      <h2 class="title reveal">A little about me</h2>
-      <div class="about-grid">
+    <!-- PROJECTS -->
+    <section id="projects" class="section" data-section="Projects">
+      <div class="sec-head">
         <div>
-          <div class="profile reveal" data-profile>
-            <img src="" alt="Portrait of Salfi Bhuiyan" width="156" height="198" data-photo />
-            <div><strong data-name></strong><span>BBA (MIS) · North South University</span><span>Dhaka, Bangladesh</span></div>
-          </div>
-          <div class="about-text" data-about></div>
+          <p class="kicker" data-build>01 / Selected projects</p>
+          <h2 class="display" data-build>Work that delivers results<i>.</i></h2>
         </div>
-        <div class="stats" data-stats></div>
+        <a class="sec-link" data-build data-resume download>Full CV <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="filters" data-build>
+        <div class="tabs" role="tablist" data-filters></div>
+        <label class="search"><span aria-hidden="true">⌕</span><input type="search" placeholder="Search name or tool" data-search aria-label="Search projects" /></label>
+      </div>
+      <div class="projects" data-projects></div>
+      <p class="empty" hidden data-empty>No projects match that search.</p>
+      <div class="tools" data-build>
+        <p class="kicker">Tools I work with</p>
+        <ul data-tools></ul>
       </div>
     </section>
 
-    <section id="skills" class="section">
-      <p class="eyebrow reveal">02 · Skills</p>
-      <h2 class="title reveal">What I work with</h2>
-      <div class="skills" data-skills></div>
+    <!-- ABOUT -->
+    <section id="about" class="section" data-section="About">
+      <div class="sec-head">
+        <div>
+          <p class="kicker" data-build>02 / Behind the numbers</p>
+          <h2 class="display" data-build>More than spreadsheets<i>.</i><br />Systems that <em>work</em><i>.</i></h2>
+        </div>
+        <p class="intro-box" data-build data-about-intro></p>
+      </div>
+      <div class="about-grid">
+        <div class="about-col" data-build>
+          <h3 class="col-title">Skills &amp; focus</h3>
+          <div data-skills></div>
+        </div>
+        <div class="about-col" data-build>
+          <h3 class="col-title">From raw data to decisions</h3>
+          <ol class="process" data-process></ol>
+        </div>
+        <figure class="quote-card" data-build>
+          <span class="qmark" aria-hidden="true">“</span>
+          <blockquote data-quote></blockquote>
+          <figcaption><span class="sig" data-sig></span><span>BBA (MIS) · North South University</span></figcaption>
+        </figure>
+      </div>
     </section>
 
-    <section id="projects" class="section">
-      <p class="eyebrow reveal">03 · Projects</p>
-      <h2 class="title reveal">Things I've built</h2>
-      <div class="projects" data-projects></div>
+    <!-- JOURNEY -->
+    <section id="journey" class="section" data-section="Journey">
+      <div class="sec-head">
+        <div>
+          <p class="kicker" data-build>03 / Journey</p>
+          <h2 class="display" data-build>Always learning<i>.</i> Always building<i>.</i></h2>
+        </div>
+      </div>
+      <div class="journey-grid">
+        <div class="accordion" data-education></div>
+        <aside class="live" data-build>
+          <p class="kicker">Out in the world</p>
+          <p class="live-title">Live<i>.</i><br /><em>In use.</em></p>
+          <ul data-live></ul>
+        </aside>
+      </div>
     </section>
 
-    <section id="journey" class="section">
-      <p class="eyebrow reveal">04 · Education</p>
-      <h2 class="title reveal">Where I studied</h2>
-      <ol class="timeline" data-timeline></ol>
+    <!-- CERTIFICATIONS -->
+    <section id="certs" class="section" data-section="Certifications">
+      <div class="sec-head">
+        <div>
+          <p class="kicker" data-build>04 / Certifications</p>
+          <h2 class="display" data-build>Certified<i>.</i> Still curious<i>.</i></h2>
+        </div>
+      </div>
+      <ul class="certs" data-certs></ul>
     </section>
 
-    <section id="certs" class="section">
-      <p class="eyebrow reveal">05 · Certifications</p>
-      <h2 class="title reveal">Always learning</h2>
-      <div class="certs" data-certs></div>
-    </section>
-
-    <section id="contact" class="section contact">
-      <p class="eyebrow reveal">06 · Contact</p>
-      <h2 class="title reveal">Let's work together</h2>
-      <p class="lead reveal">I'm looking for a Management Trainee, MIS or analyst role and can join immediately. If you have an opening or just want to connect, my inbox is open.</p>
-      <div class="contact-links reveal" data-contact></div>
+    <!-- CONTACT -->
+    <section id="contact" class="section contact" data-section="Contact">
+      <div class="contact-grid">
+        <div class="contact-main">
+          <p class="kicker" data-build>05 / Your next hire</p>
+          <h2 class="display" data-build>Tell me what your team needs<i>.</i></h2>
+          <p class="contact-text" data-build>I'm looking for a Management Trainee, MIS or analyst role and can join immediately. Send me a message and I'll get back to you quickly.</p>
+          <a class="talk" data-build data-mail><span class="talk-ic" aria-hidden="true">↗</span>Start a conversation</a>
+        </div>
+        <ul class="channels" data-channels></ul>
+        <div class="replay-card" data-build>
+          <div class="rc-top"><span data-logo-plain></span><span>Replay</span></div>
+          <p class="rc-title">Assembled<br /><em>live.</em></p>
+          <button class="rc-btn" data-replay aria-label="Replay the page build animation"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></button>
+          <p class="rc-note">Watch this page build itself again</p>
+        </div>
+      </div>
+      <form class="brief" data-build data-brief>
+        <label for="brief-input" class="sr-only">Tell me about the role</label>
+        <input id="brief-input" type="text" placeholder="Tell me about the role…" autocomplete="off" />
+        <button type="submit" aria-label="Send by email">→</button>
+      </form>
     </section>
   </main>
 
   <footer class="footer">
-    <p>© <span data-year></span> <span data-name></span>. Built with HTML, CSS &amp; JavaScript.</p>
+    <a href="#home" class="logo"><span class="mark" aria-hidden="true"></span><span data-logo></span><i>.</i></a>
+    <p>© <span data-year></span> <span data-fullname></span> · Built live, section by section</p>
+    <a href="#home" class="to-top">Back to top ↑</a>
   </footer>
 
-  <script src="content.js?v=202611211752"></script>
-  <script src="script.js?v=202611211752"></script>
+  <div class="builder" aria-hidden="true"></div>
+  <div class="status" aria-hidden="true"><span class="s-dots"><i></i><i></i><i></i><i></i><i></i></span><span class="s-text"></span><span class="s-badge">LIVE</span></div>
+
+  <script src="content.js?v=202611211808"></script>
+  <script src="script.js?v=202611211808"></script>
 </body>
 </html>

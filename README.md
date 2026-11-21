@@ -1,11 +1,15 @@
 # Salfi Bhuiyan — Portfolio
 
-Animated personal portfolio site, hosted on GitHub Pages.
+Personal portfolio site, hosted on GitHub Pages: https://salfibhuiyan42.github.io
 
-**To update the content, edit `content.js`** — name, about, skills, projects, timeline and contact links all live there. No build step: push to `main` and GitHub Pages redeploys.
+Dark red theme with a "live assembly" effect: each section is drawn as blueprint boxes, a swarm of cursors builds it, then the real content appears. The Replay button in the Contact section runs it again.
 
-- `index.html` – page structure
-- `style.css` – design and animations
-- `script.js` – typing effect, scroll reveals, particle background, card tilt
+**To update the content, edit `content.js`.** Name, projects, skills, education, certifications and contact links all live there. Push to `main` and GitHub Pages redeploys.
 
 After editing `content.js`, `style.css` or `script.js`, bump the `?v=` number on their tags in `index.html` so visitors' browsers load the new version immediately.
+
+- `index.html` – page structure
+- `style.css` – design, layout and the assembly effect
+- `script.js` – renders content, project filters, accordion, assembly animation
+- `portrait.png` – hero photo (background removed)
+- `Salfi_Bhuiyan_CV.pdf` – the CV behind the Download CV buttons
