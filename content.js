@@ -79,19 +79,19 @@ const PORTFOLIO = {
       title: "Bachelor of Business Administration (MIS)",
       place: "North South University",
       detail:
-        "All academic coursework completed · CGPA 3.14. Coursework: Operations Management, Python for Data Analysis, Database Management (MySQL), Project Management, ERP, Digital Enterprise Management, Business Communication."
+        "All academic coursework completed. Coursework: Operations Management, Python for Data Analysis, Database Management (MySQL), Project Management, ERP, Digital Enterprise Management, Business Communication."
     },
     {
       when: "2021 – 2023",
       title: "Higher Secondary Certificate (HSC)",
       place: "Govt. Tolaram College",
-      detail: "GPA 4.58"
+      detail: ""
     },
     {
       when: "2019 – 2021",
       title: "Secondary School Certificate (SSC)",
       place: "B.M Union School and College",
-      detail: "GPA 4.40"
+      detail: ""
     }
   ],
 

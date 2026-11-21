@@ -49,7 +49,7 @@
     .join("");
 
   $("[data-timeline]").innerHTML = P.timeline
-    .map((t) => `<li class="reveal"><span class="when">${esc(t.when)}</span><h3>${esc(t.title)}</h3><div class="place">${esc(t.place)}</div><p class="detail">${esc(t.detail)}</p></li>`)
+    .map((t) => `<li class="reveal"><span class="when">${esc(t.when)}</span><h3>${esc(t.title)}</h3><div class="place">${esc(t.place)}</div>${t.detail ? `<p class="detail">${esc(t.detail)}</p>` : ""}</li>`)
     .join("");
 
   $("[data-certs]").innerHTML = P.certifications
