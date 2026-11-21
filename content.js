@@ -13,7 +13,7 @@ const PORTFOLIO = {
   role: "Management Trainee & Analyst",
   tagline:
     "BBA (MIS) student at North South University with all coursework completed. I turn messy data into accurate records, clear reports and better decisions.",
-  portrait: "portrait.webp",
+  portrait: "portrait-c455e21c.webp",
   location: "Dhaka, Bangladesh",
   availability: "Available to join immediately",
 
