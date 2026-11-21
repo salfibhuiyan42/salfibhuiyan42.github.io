@@ -114,6 +114,6 @@ const PORTFOLIO = {
     email: "salfibhuiyan42@gmail.com",
     github: "https://github.com/salfibhuiyan42",
     linkedin: "https://www.linkedin.com/in/salfi-bhuiyan-806951189/",
-    resume: "" // e.g. "resume.pdf" after adding a general version of your CV to this folder
+    resume: "Salfi_Bhuiyan_CV.pdf" // set to "" to hide the CV buttons
   }
 };

@@ -20,6 +20,8 @@
   $("[data-tagline]").textContent = P.tagline;
   $("[data-year]").textContent = new Date().getFullYear();
   if (!P.available) $("[data-available]").remove();
+  if (P.contact.resume) $("[data-resume]").href = P.contact.resume;
+  else $("[data-resume]").remove();
   if (P.photo) $("[data-photo]").src = P.photo;
   else $("[data-photo]").remove();
 
@@ -68,7 +70,7 @@
     c.email && `<a class="contact-link main" href="mailto:${esc(c.email)}">${icons.mail}${esc(c.email)}</a>`,
     c.linkedin && `<a class="contact-link" href="${esc(c.linkedin)}" target="_blank" rel="noopener">${icons.linkedin}LinkedIn</a>`,
     c.github && `<a class="contact-link" href="${esc(c.github)}" target="_blank" rel="noopener">${icons.github}GitHub</a>`,
-    c.resume && `<a class="contact-link" href="${esc(c.resume)}" target="_blank" rel="noopener">${icons.doc}Résumé</a>`
+    c.resume && `<a class="contact-link" href="${esc(c.resume)}" download>${icons.doc}Download CV</a>`
   ].filter(Boolean).join("");
 
   /* ---------- Typing effect ---------- */
