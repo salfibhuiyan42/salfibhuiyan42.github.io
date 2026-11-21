@@ -11,5 +11,5 @@ After editing `content.js`, `style.css` or `script.js`, bump the `?v=` number on
 - `index.html` – page structure
 - `style.css` – design, layout and the assembly effect
 - `script.js` – renders content, project filters, accordion, assembly animation
-- `portrait.png` – hero photo (background removed)
+- `portrait.webp` – hero photo (AI-upscaled, background removed)
 - `Salfi_Bhuiyan_CV.pdf` – the CV behind the Download CV buttons
