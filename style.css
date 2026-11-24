@@ -80,8 +80,8 @@ nav { flex: 1; display: flex; justify-content: center; }
 .hero-stage { position: absolute; inset: 0; }
 .hero::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 140px; z-index: 2; pointer-events: none; background: linear-gradient(transparent, var(--bg)); }
 .giant {
-  position: absolute; left: 0; right: 0; top: 16.5vh; text-align: center; z-index: 1;
-  font-family: var(--display); font-size: clamp(120px, 21.5vw, 380px); line-height: .82; color: var(--red);
+  position: absolute; left: 0; right: 0; top: max(140px, 16vh); text-align: center; z-index: 1;
+  font-family: var(--display); font-size: clamp(110px, min(21.5vw, 38vh), 380px); line-height: .82; color: var(--red);
   letter-spacing: .005em; white-space: nowrap; user-select: none;
   text-shadow: 0 0 80px rgba(255, 45, 45, .25);
 }
@@ -98,7 +98,7 @@ nav { flex: 1; display: flex; justify-content: center; }
 .hero-role { margin: 14px 0 10px; color: var(--red); font-weight: 800; font-size: .85rem; letter-spacing: .08em; text-transform: uppercase; }
 .hero-text { color: #c9c9cf; font-size: .98rem; max-width: 430px; }
 .hero-cta { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 24px; }
-.hero-stats { position: absolute; z-index: 3; right: var(--gut); top: 50%; margin-top: -40px; display: grid; gap: 22px; }
+.hero-stats { position: absolute; z-index: 3; right: var(--gut); bottom: 12vh; display: grid; gap: 22px; }
 .hero-stats li { display: grid; grid-template-columns: 74px 128px; align-items: center; gap: 12px; }
 .hero-stats strong { font-family: var(--display); font-weight: 400; font-size: 2.8rem; line-height: 1; color: var(--red); }
 .hero-stats strong i { color: var(--orange); font-style: normal; }
